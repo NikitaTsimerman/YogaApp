@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FD26E6627C4D51000824954 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD26E6527C4D51000824954 /* AppDelegate.swift */; };
+		3FD26E6827C4D51000824954 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD26E6727C4D51000824954 /* SceneDelegate.swift */; };
+		3FD26E6A27C4D51000824954 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD26E6927C4D51000824954 /* ViewController.swift */; };
+		3FD26E6D27C4D51000824954 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FD26E6B27C4D51000824954 /* Main.storyboard */; };
+		3FD26E6F27C4D51100824954 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FD26E6E27C4D51100824954 /* Assets.xcassets */; };
+		3FD26E7227C4D51100824954 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FD26E7027C4D51100824954 /* LaunchScreen.storyboard */; };
+		3FD26E7727C4D51100824954 /* zyablov_yoga WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3FD26E7627C4D51100824954 /* zyablov_yoga WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3FD26E7D27C4D51100824954 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FD26E7B27C4D51100824954 /* Interface.storyboard */; };
+		3FD26E7F27C4D51200824954 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FD26E7E27C4D51200824954 /* Assets.xcassets */; };
+		3FD26E8527C4D51200824954 /* zyablov_yoga WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3FD26E8427C4D51200824954 /* zyablov_yoga WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3FD26E8A27C4D51200824954 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD26E8927C4D51200824954 /* InterfaceController.swift */; };
+		3FD26E8C27C4D51200824954 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD26E8B27C4D51200824954 /* ExtensionDelegate.swift */; };
+		3FD26E8E27C4D51200824954 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD26E8D27C4D51200824954 /* ComplicationController.swift */; };
+		3FD26E9027C4D51300824954 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FD26E8F27C4D51300824954 /* Assets.xcassets */; };
+		3FD26EA227C4DC7500824954 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD26EA127C4DC7500824954 /* TableViewController.swift */; };
+		3FD26EA427C4E04F00824954 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD26EA327C4E04F00824954 /* TableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FD26E7827C4D51100824954 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FD26E5A27C4D51000824954 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FD26E7527C4D51100824954;
+			remoteInfo = "zyablov_yoga WatchKit App";
+		};
+		3FD26E8627C4D51200824954 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FD26E5A27C4D51000824954 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FD26E8327C4D51200824954;
+			remoteInfo = "zyablov_yoga WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3FD26E9727C4D51300824954 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3FD26E8527C4D51200824954 /* zyablov_yoga WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FD26E9B27C4D51300824954 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3FD26E7727C4D51100824954 /* zyablov_yoga WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3FD26E6227C4D51000824954 /* zyablov_yoga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zyablov_yoga.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FD26E6527C4D51000824954 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FD26E6727C4D51000824954 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3FD26E6927C4D51000824954 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FD26E6C27C4D51000824954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FD26E6E27C4D51100824954 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FD26E7127C4D51100824954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FD26E7327C4D51100824954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FD26E7627C4D51100824954 /* zyablov_yoga WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zyablov_yoga WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FD26E7C27C4D51100824954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		3FD26E7E27C4D51200824954 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FD26E8427C4D51200824954 /* zyablov_yoga WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "zyablov_yoga WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FD26E8927C4D51200824954 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		3FD26E8B27C4D51200824954 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		3FD26E8D27C4D51200824954 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		3FD26E8F27C4D51300824954 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FD26E9127C4D51300824954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FD26EA127C4DC7500824954 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		3FD26EA327C4E04F00824954 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FD26E5F27C4D51000824954 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FD26E8127C4D51200824954 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FD26E5927C4D51000824954 = {
+			isa = PBXGroup;
+			children = (
+				3FD26E6427C4D51000824954 /* zyablov_yoga */,
+				3FD26E7A27C4D51100824954 /* zyablov_yoga WatchKit App */,
+				3FD26E8827C4D51200824954 /* zyablov_yoga WatchKit Extension */,
+				3FD26E6327C4D51000824954 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FD26E6327C4D51000824954 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FD26E6227C4D51000824954 /* zyablov_yoga.app */,
+				3FD26E7627C4D51100824954 /* zyablov_yoga WatchKit App.app */,
+				3FD26E8427C4D51200824954 /* zyablov_yoga WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FD26E6427C4D51000824954 /* zyablov_yoga */ = {
+			isa = PBXGroup;
+			children = (
+				3FD26E6527C4D51000824954 /* AppDelegate.swift */,
+				3FD26E6727C4D51000824954 /* SceneDelegate.swift */,
+				3FD26E6927C4D51000824954 /* ViewController.swift */,
+				3FD26E6B27C4D51000824954 /* Main.storyboard */,
+				3FD26EA127C4DC7500824954 /* TableViewController.swift */,
+				3FD26EA327C4E04F00824954 /* TableViewCell.swift */,
+				3FD26E6E27C4D51100824954 /* Assets.xcassets */,
+				3FD26E7027C4D51100824954 /* LaunchScreen.storyboard */,
+				3FD26E7327C4D51100824954 /* Info.plist */,
+			);
+			path = zyablov_yoga;
+			sourceTree = "<group>";
+		};
+		3FD26E7A27C4D51100824954 /* zyablov_yoga WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				3FD26E7B27C4D51100824954 /* Interface.storyboard */,
+				3FD26E7E27C4D51200824954 /* Assets.xcassets */,
+			);
+			path = "zyablov_yoga WatchKit App";
+			sourceTree = "<group>";
+		};
+		3FD26E8827C4D51200824954 /* zyablov_yoga WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3FD26E8927C4D51200824954 /* InterfaceController.swift */,
+				3FD26E8B27C4D51200824954 /* ExtensionDelegate.swift */,
+				3FD26E8D27C4D51200824954 /* ComplicationController.swift */,
+				3FD26E8F27C4D51300824954 /* Assets.xcassets */,
+				3FD26E9127C4D51300824954 /* Info.plist */,
+			);
+			path = "zyablov_yoga WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FD26E6127C4D51000824954 /* zyablov_yoga */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FD26E9C27C4D51300824954 /* Build configuration list for PBXNativeTarget "zyablov_yoga" */;
+			buildPhases = (
+				3FD26E5E27C4D51000824954 /* Sources */,
+				3FD26E5F27C4D51000824954 /* Frameworks */,
+				3FD26E6027C4D51000824954 /* Resources */,
+				3FD26E9B27C4D51300824954 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FD26E7927C4D51100824954 /* PBXTargetDependency */,
+			);
+			name = zyablov_yoga;
+			productName = zyablov_yoga;
+			productReference = 3FD26E6227C4D51000824954 /* zyablov_yoga.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FD26E7527C4D51100824954 /* zyablov_yoga WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FD26E9827C4D51300824954 /* Build configuration list for PBXNativeTarget "zyablov_yoga WatchKit App" */;
+			buildPhases = (
+				3FD26E7427C4D51100824954 /* Resources */,
+				3FD26E9727C4D51300824954 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FD26E8727C4D51200824954 /* PBXTargetDependency */,
+			);
+			name = "zyablov_yoga WatchKit App";
+			productName = "zyablov_yoga WatchKit App";
+			productReference = 3FD26E7627C4D51100824954 /* zyablov_yoga WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		3FD26E8327C4D51200824954 /* zyablov_yoga WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FD26E9427C4D51300824954 /* Build configuration list for PBXNativeTarget "zyablov_yoga WatchKit Extension" */;
+			buildPhases = (
+				3FD26E8027C4D51200824954 /* Sources */,
+				3FD26E8127C4D51200824954 /* Frameworks */,
+				3FD26E8227C4D51200824954 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "zyablov_yoga WatchKit Extension";
+			productName = "zyablov_yoga WatchKit Extension";
+			productReference = 3FD26E8427C4D51200824954 /* zyablov_yoga WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FD26E5A27C4D51000824954 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					3FD26E6127C4D51000824954 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					3FD26E7527C4D51100824954 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					3FD26E8327C4D51200824954 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 3FD26E5D27C4D51000824954 /* Build configuration list for PBXProject "zyablov_yoga" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FD26E5927C4D51000824954;
+			productRefGroup = 3FD26E6327C4D51000824954 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FD26E6127C4D51000824954 /* zyablov_yoga */,
+				3FD26E7527C4D51100824954 /* zyablov_yoga WatchKit App */,
+				3FD26E8327C4D51200824954 /* zyablov_yoga WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FD26E6027C4D51000824954 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FD26E7227C4D51100824954 /* LaunchScreen.storyboard in Resources */,
+				3FD26E6F27C4D51100824954 /* Assets.xcassets in Resources */,
+				3FD26E6D27C4D51000824954 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FD26E7427C4D51100824954 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FD26E7F27C4D51200824954 /* Assets.xcassets in Resources */,
+				3FD26E7D27C4D51100824954 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FD26E8227C4D51200824954 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FD26E9027C4D51300824954 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FD26E5E27C4D51000824954 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FD26EA427C4E04F00824954 /* TableViewCell.swift in Sources */,
+				3FD26E6A27C4D51000824954 /* ViewController.swift in Sources */,
+				3FD26E6627C4D51000824954 /* AppDelegate.swift in Sources */,
+				3FD26E6827C4D51000824954 /* SceneDelegate.swift in Sources */,
+				3FD26EA227C4DC7500824954 /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FD26E8027C4D51200824954 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FD26E8C27C4D51200824954 /* ExtensionDelegate.swift in Sources */,
+				3FD26E8A27C4D51200824954 /* InterfaceController.swift in Sources */,
+				3FD26E8E27C4D51200824954 /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FD26E7927C4D51100824954 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FD26E7527C4D51100824954 /* zyablov_yoga WatchKit App */;
+			targetProxy = 3FD26E7827C4D51100824954 /* PBXContainerItemProxy */;
+		};
+		3FD26E8727C4D51200824954 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FD26E8327C4D51200824954 /* zyablov_yoga WatchKit Extension */;
+			targetProxy = 3FD26E8627C4D51200824954 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FD26E6B27C4D51000824954 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FD26E6C27C4D51000824954 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FD26E7027C4D51100824954 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FD26E7127C4D51100824954 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3FD26E7B27C4D51100824954 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FD26E7C27C4D51100824954 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FD26E9227C4D51300824954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FD26E9327C4D51300824954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3FD26E9527C4D51300824954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "zyablov_yoga WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "zyablov_yoga WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "z.zyablov-yoga.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		3FD26E9627C4D51300824954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "zyablov_yoga WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "zyablov_yoga WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "z.zyablov-yoga.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		3FD26E9927C4D51300824954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = zyablov_yoga_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "zyablov_yoga WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "z.zyablov-yoga";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "z.zyablov-yoga.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		3FD26E9A27C4D51300824954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = zyablov_yoga_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "zyablov_yoga WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "z.zyablov-yoga";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "z.zyablov-yoga.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		3FD26E9D27C4D51300824954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = zyablov_yoga/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "z.zyablov-yoga";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FD26E9E27C4D51300824954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = zyablov_yoga/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "z.zyablov-yoga";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FD26E5D27C4D51000824954 /* Build configuration list for PBXProject "zyablov_yoga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FD26E9227C4D51300824954 /* Debug */,
+				3FD26E9327C4D51300824954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FD26E9427C4D51300824954 /* Build configuration list for PBXNativeTarget "zyablov_yoga WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FD26E9527C4D51300824954 /* Debug */,
+				3FD26E9627C4D51300824954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FD26E9827C4D51300824954 /* Build configuration list for PBXNativeTarget "zyablov_yoga WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FD26E9927C4D51300824954 /* Debug */,
+				3FD26E9A27C4D51300824954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FD26E9C27C4D51300824954 /* Build configuration list for PBXNativeTarget "zyablov_yoga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FD26E9D27C4D51300824954 /* Debug */,
+				3FD26E9E27C4D51300824954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FD26E5A27C4D51000824954 /* Project object */;
+}
